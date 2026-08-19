@@ -1,0 +1,14 @@
+- Glatze
+- Sehr Kurz
+- Kurz
+- Schulter Lang
+- Mittlerer Rücken
+- Hüftlang
+- Hinten zusammen gebunden
+- Zopf hinten
+- Zöpfe
+- Oben zusammen gebunden
+- Dreadlocks
+- Afro
+- Sidecut
+- Punk-kamm

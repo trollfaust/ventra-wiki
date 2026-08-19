@@ -1,0 +1,47 @@
+views:
+  - type: table
+    name: Xyraxisches Reich
+    filters:
+      and:
+        - file.tags.contains("#Location")
+        - '!file.folder.startsWith("99 - Meta")'
+        - type == "Settlement"
+        - location == ["[[Xyraxisches Reich]]"]
+    groupBy:
+      property: subType
+      direction: ASC
+    order:
+      - file.name
+      - subType
+      - dominion
+      - export
+      - import
+      - languages
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.dominion: 223
+  - type: table
+    name: Khelland
+    filters:
+      and:
+        - file.tags.contains("#Location")
+        - '!file.folder.startsWith("99 - Meta")'
+        - type == "Settlement"
+        - location == ["Khelland"]
+    groupBy:
+      property: subType
+      direction: ASC
+    order:
+      - file.name
+      - subType
+      - dominion
+      - export
+      - import
+      - languages
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.dominion: 223

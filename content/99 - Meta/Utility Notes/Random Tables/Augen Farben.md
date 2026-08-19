@@ -1,0 +1,28 @@
+- Dunkel Braun
+- Braun
+- Hell Braun
+- Haselnuss
+- Blau-Grau
+- Blau-Grün
+- Dunkel Grün
+- Grün
+- Hell Grün
+- Dunkel Blau
+- Blau
+- Hell Blau
+- Dunkel Orange
+- Orange
+- Hell Orange
+- Gelb
+- Schwarz
+- Weiß
+- Dunkel Rot
+- Rot
+- Hell Rot
+- Silber
+- Gold
+- Cyan
+- Pink
+- Lavendel
+- Lila
+- Magenta

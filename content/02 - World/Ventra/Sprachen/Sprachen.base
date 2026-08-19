@@ -1,0 +1,11 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("Language")
+        - '!file.folder.startsWith("99 - Meta")'
+    order:
+      - file.name
+      - aliases
+      - parent

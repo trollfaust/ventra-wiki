@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("location")
+        - '!file.folder.startsWith("99 - Meta")'
+        - type == "Landmass"
+    groupBy:
+      property: subType
+      direction: ASC
+    order:
+      - file.name
+      - subType
+      - location
+      - languages
+      - dominion
+    sort:
+      - property: file.name
+        direction: ASC

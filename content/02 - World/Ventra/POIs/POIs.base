@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - '!file.folder.startsWith("99 - Meta")'
+        - file.tags.contains("Location")
+        - type == "POI"
+    order:
+      - file.name
+      - subType
+      - location
+    sort:
+      - property: location
+        direction: ASC

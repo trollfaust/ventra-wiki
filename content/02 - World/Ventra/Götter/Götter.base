@@ -1,0 +1,21 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - '!file.folder.startsWith("99 - Meta")'
+        - file.tags.contains("Gottheit")
+    groupBy:
+      property: domains
+      direction: ASC
+    order:
+      - file.name
+      - aliases
+      - domains
+      - condition
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.aliases: 487
+      note.domains: 936

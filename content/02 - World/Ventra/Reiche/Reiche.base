@@ -1,0 +1,17 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("location")
+        - '!file.folder.startsWith("99 - Meta")'
+        - type == "Nation"
+    order:
+      - file.name
+      - location
+      - languages
+      - dominion
+      - governmenttype
+    columnSize:
+      note.location: 255
+      note.dominion: 535
