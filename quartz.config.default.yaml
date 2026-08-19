@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Ventra Wiki
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -106,7 +106,7 @@ plugins:
       theme: tokyo-night
       mode: both
   - source: "@quartz-community/remove-draft"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/explicit-publish"
     enabled: false
   - source: "@quartz-community/alias-redirects"
