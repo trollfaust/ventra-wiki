@@ -256,6 +256,9 @@ plugins:
       position: afterBody
       priority: 50
       display: all
+  - source: ./plugins/inline-frontmatter
+    enabled: true
+    order: 15
 layout:
   groups:
     toolbar:
