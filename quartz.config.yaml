@@ -4,10 +4,9 @@ configuration:
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
-  analytics:
-    provider: plausible
+  analytics: null
   locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  baseUrl: trollfaust.github.io/ventra-wiki
   ignorePatterns:
     - private
     - templates
@@ -121,7 +120,7 @@ plugins:
   - source: "@quartz-community/og-image"
     enabled: true
   - source: "@quartz-community/cname"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/canvas-page"
     enabled: true
   - source: "@quartz-community/content-page"
@@ -203,8 +202,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/trollfaust/
+        Discord Community: https://discord.gg/cHtWcMtfRV
     layout:
       position: footer
       priority: 50
