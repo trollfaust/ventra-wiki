@@ -2,12 +2,13 @@
 tags:
   - "#Location"
 aliases:
-  - "Ventras"
+  - Ventras
 type: Landmass
 subType:
   - Kontinent
 dominion:
 location:
+  - "[[Trea]]"
 art: 99 - Meta/Resources/Utility/Placeholder_Land.webp
 ---
 # `=this.file.name`
