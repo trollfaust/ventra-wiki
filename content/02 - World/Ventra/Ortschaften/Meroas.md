@@ -18,19 +18,10 @@ languages:
 > Ein Militäraußenposten, welcher mittlerweile zusätzlich ein Handelsumschlagsplatz geworden ist.
 
 ## Infos
-| Typ | Übergeordnet | Herrschaft | Regierungsform | Import | Export | Sprachen | Art |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-|`INPUT[LocationType][inlineSelect:type]`|`INPUT[inlineListSuggester(optionQuery(#Location AND !"99 - Meta"), useLinks(partial)):location]`|`INPUT[inlineListSuggester(optionQuery(#Organization OR #Character AND !"99 - Meta"), useLinks(partial)):dominion]`|`INPUT[GovernmentType][inlineListSuggester:governmenttype]`|`INPUT[Goods][inlineListSuggester:import]`|`INPUT[Goods][inlineListSuggester:export]`|`INPUT[inlineListSuggester(optionQuery(#Organization OR #Language AND !"99 - Meta"), useLinks(partial)):languages]`|`INPUT[imageSuggester(class(input-image),optionQuery("")):art]`|
-```meta-bind-js-view
-{type} as type
----
-var outputStr = "Subtype: ";
-if (context.bound.type === "Landmass"){outputStr = outputStr + `\`INPUT[LandType][inlineListSuggester:subType]\``;}
-else if (context.bound.type === "Settlement"){outputStr = outputStr + `\`INPUT[SettlementType][inlineListSuggester:subType]\``;}
-else if (context.bound.type === "POI"){outputStr = outputStr + `\`INPUT[POIType][inlineListSuggester:subType]\``;}
-else {outputStr = "";}
-return engine.markdown.create(outputStr);
-```
+| Typ                                      | Sub-Type |Übergeordnet                                                                                      | Herrschaft                                                                                                          | Regierungsform                                              | Import                                     | Export                                     | Sprachen                                                                                                            | Art                                                             |
+| ---------------------------------------- | --- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------ | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| `INPUT[LocationType][inlineSelect:type]` | `INPUT[LandType][inlineListSuggester:subType]`(Land)<br>`INPUT[SettlementType][inlineListSuggester:subType]`(Ortschaft)<br>`INPUT[POIType][inlineListSuggester:subType]`(POI) | `INPUT[inlineListSuggester(optionQuery(#Location AND !"99 - Meta"), useLinks(partial)):location]` | `INPUT[inlineListSuggester(optionQuery(#Organization OR #Character AND !"99 - Meta"), useLinks(partial)):dominion]` | `INPUT[GovernmentType][inlineListSuggester:governmenttype]` | `INPUT[Goods][inlineListSuggester:import]` | `INPUT[Goods][inlineListSuggester:export]` | `INPUT[inlineListSuggester(optionQuery(#Organization OR #Language AND !"99 - Meta"), useLinks(partial)):languages]` | `INPUT[imageSuggester(class(input-image),optionQuery("")):art]` |
+
 
 Meroas, eine kleinere Hafenstadt an der Südküste der Insel [[Kaho-deiid]], ist vorrangig ein militärischer Außenposten des [[Xyraxisches Reich|Xyraxischen Reiches]] in Richtung [[Süd Ventra]] und der [[Kernsee]]. Mittlerweile ist Meroas aber auch als Zwischenhandelsplatz nach [[Erimos]] und in die [[Kernsee]] bekannt. Per Zug kann man von hier hauptsächlich [[Pelák]] erreichen, und ist damit relativ schnell in [[Xyrax]].
 ## Sonstiges
