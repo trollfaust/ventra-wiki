@@ -399,13 +399,32 @@ function processFile(row, index) {
 // ---------- Main ----------
 
 function main() {
+  console.log(`ℹ️  Suche Markdown-Dateien in: ${path.resolve(CONTENT_DIR)}`)
   const files = walk(CONTENT_DIR)
-  const index = buildIndex(files)
+  console.log(`ℹ️  Gefundene .md-Dateien: ${files.length}`)
 
-  for (const row of index) {
-    if (row.raw.includes("```dataview")) {
-      processFile(row, index)
+  const index = buildIndex(files)
+  const withDataview = index.filter((row) => row.raw.includes("```dataview"))
+  console.log(`ℹ️  Dateien mit \`\`\`dataview-Block: ${withDataview.length}`)
+  if (withDataview.length > 0) {
+    console.log(`ℹ️  Betroffene Dateien: ${withDataview.map((r) => r.relPath).join(", ")}`)
+  } else if (files.length > 0) {
+    // Diagnose-Hilfe: zeig die erste Datei mit einem Fence-Block (egal welcher Sprache),
+    // damit wir sehen, ob "dataview" evtl. anders geschrieben ist als erwartet
+    const withAnyFence = index.find((row) => /```\S/.test(row.raw))
+    if (withAnyFence) {
+      console.log(`ℹ️  Beispiel-Codeblock-Zeile(n) in ${withAnyFence.relPath}:`)
+      withAnyFence.raw
+        .split(/\r?\n/)
+        .filter((l) => l.includes("```"))
+        .forEach((l) => console.log(`    ${JSON.stringify(l)}`))
+    } else {
+      console.log(`ℹ️  Keine \`\`\`-Codeblöcke in irgendeiner Datei gefunden.`)
     }
+  }
+
+  for (const row of withDataview) {
+    processFile(row, index)
   }
 }
 
