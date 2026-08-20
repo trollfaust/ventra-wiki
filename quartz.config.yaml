@@ -259,6 +259,9 @@ plugins:
   - source: ./plugins/inline-frontmatter
     enabled: true
     order: 15
+  - source: ./plugins/remove-title-heading
+    enabled: true
+    order: 25
 layout:
   groups:
     toolbar:
