@@ -381,6 +381,9 @@ function processFile(row, index) {
       const table = renderMarkdownTable(query, results)
       const tableLines = table.split("\n").map((l) => (prefix ? `${prefix}${l}` : l))
       output.push(...tableLines)
+      // Leerzeile einfügen, damit direkt aufeinanderfolgende Dataview-Blöcke
+      // nicht zu EINER großen Markdown-Tabelle verschmelzen.
+      output.push(prefix ? prefix.trimEnd() : "")
       changed = true
     } catch (err) {
       console.warn(`⚠️  Fehler beim Rendern eines Dataview-Blocks in ${row.relPath}: ${err.message}`)
