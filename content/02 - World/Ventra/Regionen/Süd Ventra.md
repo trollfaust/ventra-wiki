@@ -34,7 +34,7 @@ return engine.markdown.create(outputStr);
 Im Süden [[Ventra|Ventras]] haben die großen Zivilisationen kaum Fuß gefasst. Von Wüsten über Dschungeln bis zu Gebirgen findet man hier nur unberührte Wildnis. Aber auch hier leben vereinzelte Clans im Einklang mit der Natur. Zum Beispiel findet man an der nördlichen Küste Süd Ventras verschiedene [[Lizardfolk]] Clans.
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

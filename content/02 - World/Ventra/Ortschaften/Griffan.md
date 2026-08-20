@@ -39,7 +39,7 @@ return engine.markdown.create(outputStr);
 Als Griffan nach der [[Die Splitterung|Splitterung]] nicht weit der Küste [[Jal-Kaho|Jal-Kahos]] gelegen war, breitete sich die Stadt seit dem immer weiter in diese Richtung aus. Heute hat Griffan einen kleinen Hafen und eine Zuganbindung nach [[Serena]]. Am Rand eines Walds gelegen, hat die Stadt auch viel offenes und fruchtbares Gelände nach Norden hin, auf welchem hauptsächlich Getreide angepflanzt wird.
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

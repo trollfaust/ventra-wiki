@@ -33,7 +33,7 @@ return engine.markdown.create(outputStr);
 Den nördlichste Teil [[Nord Ventra|Nord Ventras]] bildet die Tundra der Einsamkeit. Eine Tundra welche im Süden vom [[Der Norgrad|Norgrad]] begrenzt wird und im Norden bis in eisige Gebiete hinein reicht.
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

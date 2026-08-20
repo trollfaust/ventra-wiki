@@ -41,7 +41,7 @@ return engine.markdown.create(outputStr);
 Benannt nach dem [[Jal-Ahct Gebirge]], liegt diese Stadt am Fuße der Berge auf der Insel [[Jal-Kaho]]. Sie ist bekannt für den Abbau und Export von Kohle und die Entwicklung von [[Feuerwaffen]], welche bis heute zum Großteil hier hergestellt werden. Da die Stadt etwas abseits der Küste liegt, ist sie hauptsächlich per Zug erreichbar und hat eine direkte Zugstrecke nach [[Xyrax]].
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

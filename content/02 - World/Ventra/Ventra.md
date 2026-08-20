@@ -2,18 +2,18 @@
 tags:
   - "#Location"
 aliases:
+  - "Ventras"
 type: Landmass
 subType:
-  - Gebirge
+  - Kontinent
 dominion:
 location:
-  - "[[Das einsame Auge]]"
 art: 99 - Meta/Resources/Utility/Placeholder_Land.webp
 ---
 # `=this.file.name`
 
 > [!recite]+ Kurzbeschreibung
-> Die Vulkanregion auf dem einsamen Auge.
+> Ein großer Kontinent bestehend aus 2 Sub-Kontinenten.
 
 ## Infos
 | Typ | Übergeordnet | Herrschaft | Regierungsform | Import | Export | Sprachen | Art |
@@ -30,7 +30,7 @@ else {outputStr = "";}
 return engine.markdown.create(outputStr);
 ```
 
-Die wütenden Berge sind eine Vulkanregion, welche den Großteil der Insel [[Das einsame Auge|des einsamen Auges]] einnimmt.
+
 ## Sonstiges
 
 > [!note|bg-c-blue]- Tabellen

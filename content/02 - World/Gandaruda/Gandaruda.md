@@ -2,18 +2,18 @@
 tags:
   - "#Location"
 aliases:
-  - "Ventras"
 type: Landmass
 subType:
   - Kontinent
 dominion:
 location:
+  - "[[Trea]]"
 art: 99 - Meta/Resources/Utility/Placeholder_Land.webp
 ---
 # `=this.file.name`
 
 > [!recite]+ Kurzbeschreibung
-> Ein großer Kontinent bestehend aus 2 Sub-Kontinenten.
+> Kurzbeschreibung zum vorlesen hier rein
 
 ## Infos
 | Typ | Übergeordnet | Herrschaft | Regierungsform | Import | Export | Sprachen | Art |
@@ -30,10 +30,9 @@ else {outputStr = "";}
 return engine.markdown.create(outputStr);
 ```
 
-
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

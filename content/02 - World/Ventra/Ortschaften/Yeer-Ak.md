@@ -40,7 +40,7 @@ return engine.markdown.create(outputStr);
 Yeer-Ak ist eine Hafenstadt und die größte Stadt auf der Insel [[Ak-Kaho]]. Sie ist bekannt für das ausgelassene [[Fruchtlese-Fest]] welches jährlich zum Ende des [[Laubfall|Laubfalles]] stattfindet.
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

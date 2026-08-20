@@ -41,7 +41,7 @@ return engine.markdown.create(outputStr);
 In der Mündung des Flusses [[Satuk]] liegt die Hafenstadt Jal-Hept. Da der Großteil des Getreides und der Wolle im Reich zwischen Jal-Hept, [[Lefkyl]], [[Xeros]] und [[Tyrkal]] angebaut wird, ist Jal-Hept neben [[Tyrkal]] der Hauptumschlagspunkt dessen. Von hier verlaufen Zuglinien jeweils an der Küste über [[Lefkyl]] nach [[Tyrkal]], am [[Satuk]] über [[Xeros]] nach [[Tyrkal]] und nach Osten über [[Nek-Sha]].
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

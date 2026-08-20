@@ -43,7 +43,7 @@ return engine.markdown.create(outputStr);
 Xyrax ist die Haputstadt des [[Xyraxisches Reich|Xyraxischen Reiches]]. Hier findet man den Thron des [[Shar]] und den [[Ministerstab]]. Xyrax liegt am der südlichen Küste [[Jal-Kaho|Jal-Kahos]], der größten Insel der [[Splitterlande]], an der Mündung des Flusses [[Tuk-Nei]].
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

@@ -37,7 +37,7 @@ return engine.markdown.create(outputStr);
 Die Splitterlande sind das Ergebnis eines Magischen Unfalls, welcher das Ende der [[Ära des Krieges]] und den Beginn der [[Ära der Hoffnung]] einleitete. Heute wird der Großteil der Splitterlande durch das [[Xyraxisches Reich|Xyraxische Reich]] eingenommen aber auch [[Khelland]] und das [[Königreich Heldam]] liegen Teilweise in den Splitterlanden.
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

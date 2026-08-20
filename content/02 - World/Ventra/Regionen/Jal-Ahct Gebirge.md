@@ -32,7 +32,7 @@ return engine.markdown.create(outputStr);
 Das Jal-Ahct Gebirge liegt in den [[Splitterlande|Splitterlanden]] auf der größten Insel nördlich von [[Xyrax]]. Es ist benannt nach der nahe gelegenen Stadt [[Jal-Ahct]].
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

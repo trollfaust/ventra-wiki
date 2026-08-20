@@ -23,7 +23,7 @@ art: 99 - Meta/Resources/Utility/Placeholder_Deity.webp
 ## Sonstiges
 
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Organisation, type AS Typ
 > FROM !"99 - Meta"

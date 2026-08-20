@@ -33,7 +33,7 @@ return engine.markdown.create(outputStr);
 Östlich der [[Die Drachenberge|Drachenberge]] liegt die Wüste der Drachen. Hier findet man nur wenig Leben, die Hitze und Wasserarmheit der Wüste macht das überleben schwer und manche behaupten hier sei zusätzlich das Jagdgebiet der letzten [[Drachen]]. Nach Westen hin geht die Sandwüste in eine Steinwüste über und verläuft sich dann in einen Dschungel.
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

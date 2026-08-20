@@ -25,7 +25,7 @@ Shagaya ist die Göttin der Balance. Sie beherbergt die Domains [[Life (Domain)|
 ## Sonstiges
 
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Organisation, type AS Typ
 > FROM !"99 - Meta"

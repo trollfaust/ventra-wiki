@@ -33,7 +33,7 @@ return engine.markdown.create(outputStr);
 Die Drachenberge sind ein Gebirge an der nord-östlichen Küste [[Süd Ventra|Süd Ventras]]. Es halten sich bis heute Legenden und Sagen, dass hier die letzten [[Drachen]] leben, und immer mal wieder behauptet jemand einen [[Drachen]] in dieser Gegend gesehen zu haben. Hinter dem Gebirge vor der Küste liegen die Inseln der [[Universität der Künste]] und auf der anderen Seite der Berge liegt die [[Wüste der Drachen]].
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

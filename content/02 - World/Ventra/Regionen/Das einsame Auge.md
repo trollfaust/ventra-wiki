@@ -34,7 +34,7 @@ In der [[Kernsee]] in Herzen [[Nord Ventra|Nord Ventras]] liegt diese große Ins
 
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

@@ -33,7 +33,7 @@ return engine.markdown.create(outputStr);
 Der Norgrad bildet die Grenze zwischen den zivilisierten Reichen [[Nord Ventra|Nord Ventras]] südlich und der [[Tundra der Einsamkeit]] nördlich.
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

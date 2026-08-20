@@ -15,7 +15,7 @@ Da [[Elendria]] während der Herrschaft des [[Xyrax Imperium|Xyrax Imperiums]] s
 ## Sonstiges
 
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Location, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

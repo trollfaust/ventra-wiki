@@ -35,7 +35,7 @@ return engine.markdown.create(outputStr);
 Meroas, eine kleinere Hafenstadt an der Südküste der Insel [[Kaho-deiid]], ist vorrangig ein militärischer Außenposten des [[Xyraxisches Reich|Xyraxischen Reiches]] in Richtung [[Süd Ventra]] und der [[Kernsee]]. Mittlerweile ist Meroas aber auch als Zwischenhandelsplatz nach [[Erimos]] und in die [[Kernsee]] bekannt. Per Zug kann man von hier hauptsächlich [[Pelák]] erreichen, und ist damit relativ schnell in [[Xyrax]].
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

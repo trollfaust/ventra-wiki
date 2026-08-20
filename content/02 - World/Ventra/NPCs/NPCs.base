@@ -1,0 +1,27 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - '!file.folder.startsWith("99 - Meta")'
+        - file.tags.contains("#NPC")
+        - '!file.tags.contains("Gottheit")'
+    groupBy:
+      property: location
+      direction: ASC
+    order:
+      - file.name
+      - aliases
+      - location
+      - race
+      - occupation
+      - languages
+      - condition
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.aliases: 180
+      note.race: 107
+      note.occupation: 301
+      note.languages: 514

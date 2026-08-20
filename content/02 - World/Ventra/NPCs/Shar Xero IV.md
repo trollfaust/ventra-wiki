@@ -3,10 +3,18 @@ tags:
   - "#NPC"
   - "#Character"
 aliases:
-condition:
+condition: Gesund
 occupation:
+  - Shar
 location:
+  - "[[Xyrax]]"
 art: 99 - Meta/Resources/Utility/Placeholder_Person.webp
+languages:
+  - "[[Xyraxisch]]"
+  - "[[Draconic]]"
+  - "[[Khelisch]]"
+  - "[[Helisch]]"
+race: Kalashtar
 ---
 # `=this.file.name`
 
@@ -18,10 +26,11 @@ art: 99 - Meta/Resources/Utility/Placeholder_Person.webp
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |`INPUT[Condition][:condition]`|`INPUT[inlineListSuggester(optionQuery(#Location AND !"99 - Meta"), useLinks(partial)):location]`|`INPUT[inlineListSuggester(optionQuery(#Organization OR #Language AND !"99 - Meta"), useLinks(partial)):languages]`|`INPUT[Occupation][inlineListSuggester:occupation]`|`INPUT[Race][suggester:race]`|`INPUT[inlineListSuggester(optionQuery(#Organisation AND !"99 - Meta"), useLinks(partial)):organizations]`|`INPUT[inlineListSuggester(optionQuery(#Gruppe AND !"99 - Meta"), useLinks(partial)):party]`|`INPUT[imageSuggester(class(input-image),optionQuery("")):art]`|
 
+Der aktuelle [[Shar]] des [[Xyraxisches Reich|Xyraxischen Reiches]].
 ## Sonstiges
 
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Quest, status AS Status
 > FROM !"99 - Meta"

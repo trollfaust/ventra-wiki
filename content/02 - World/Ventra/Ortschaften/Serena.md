@@ -40,7 +40,7 @@ return engine.markdown.create(outputStr);
 Am Fluss [[Tuk-Nei]] auf der Insel [[Jal-Kaho]] gelegen, ist Serena ein Stadt welche auch per Zug von [[Xyrax]] oder [[Griffan]] aus erreichbar ist. So gut wie alles an Stein was auf dem [[Jal-Ahct Gebirge]] kommt wird über den [[Tuk-Nei]] durch Serena gebracht. Neben dem Steinhandel, wird in Serena viel Holz abgebaut und gehandelt.
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

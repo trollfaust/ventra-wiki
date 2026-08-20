@@ -41,7 +41,7 @@ return engine.markdown.create(outputStr);
 An der Nordküste der Insel [[Kaho-deiid]] in den [[Splitterlande|Splitterlanden]] gelegen, ist diese Hafenstadt bekannt für ihre Kunsthandwerker. Von den [[Deiid Hügel|Deiid Hügeln]] abgebauter Lehm und wird hier zu Keramik verarbeitet und verschifft. Auch die Edelsteinschleifer hier gelten als die besten im ganzen [[Xyraxisches Reich|Xyraxischen Reich]]. Neben dem Hafen befindet sich auch eine Zugstrecke über die Insel nach [[Meroas]] hier.
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

@@ -36,7 +36,7 @@ return engine.markdown.create(outputStr);
 Norwacht ist die Hauptstadt des [[Königreich Heldam|Königreich Heldams]] und liegt am [[Splittermeer]] und dem [[Der Norgrad|Norgrad]].
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"

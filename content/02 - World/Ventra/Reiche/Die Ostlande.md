@@ -46,7 +46,7 @@ Wie der Name schon impliziert, liegen die Ostlande im östlichen Bereich [[Nord 
 [[Kar-Dur]]
 ## Sonstiges
 
-> [!|bg-c-blue]- Tabellen
+> [!note|bg-c-blue]- Tabellen
 > ``` dataview
 > TABLE WITHOUT ID link(file.name) AS Unterlocation, type AS Typ, subType AS Sub-Typ, join(link(dominion),", ") AS Herrscher
 > FROM !"99 - Meta"
