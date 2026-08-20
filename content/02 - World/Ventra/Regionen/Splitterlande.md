@@ -19,6 +19,7 @@ art: 99 - Meta/Resources/Utility/Placeholder_Land.webp
 > [!recite]+ Kurzbeschreibung
 > Ein Mahnmal der Hybris des alten Xyrax Imperiums.
 
+
 ## Infos
 | Typ                                      | Sub-Type |Übergeordnet                                                                                      | Herrschaft                                                                                                          | Regierungsform                                              | Import                                     | Export                                     | Sprachen                                                                                                            | Art                                                             |
 | ---------------------------------------- | --- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------ | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -27,6 +28,9 @@ art: 99 - Meta/Resources/Utility/Placeholder_Land.webp
 
 Die Splitterlande sind das Ergebnis eines Magischen Unfalls, welcher das Ende der [[Ära des Krieges]] und den Beginn der [[Ära der Hoffnung]] einleitete. Heute wird der Großteil der Splitterlande durch das [[Xyraxisches Reich|Xyraxische Reich]] eingenommen aber auch [[Khelland]] und das [[Königreich Heldam]] liegen Teilweise in den Splitterlanden.
 ## Sonstiges
+
+> [!hint|bg-c-purple]- Map
+>![[Seekarte Splitterlande_small_v1.webp]]
 
 > [!note|bg-c-blue]- Tabellen
 > ``` dataview
