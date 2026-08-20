@@ -3,20 +3,20 @@ title: Home
 ---
 ## Orte
 
-[[Regionen.base|Regionen]]
+[[Regionen.base]]
 
-[[Reiche.base|Reiche]]
+[[Reiche.base]]
 
-[[Ortschaften.base|Ortschaften]]
+[[Ortschaften.base]]
 
 ## Charaktere
 
-[[Götter.base|Götter]]
+[[Götter.base]]
 
-[[NPCs.base|NPCs]]
+[[NPCs.base]]
 
 ## Sonstiges
 
-[[Sprachen.base|Sprachen]]
+[[Sprachen.base]]
 
 #Homebrew
