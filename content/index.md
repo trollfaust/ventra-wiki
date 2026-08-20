@@ -31,7 +31,7 @@ title: Home
 
 > [!abstract]- Götter
 > ``` dataview
-> TABLE WITHOUT ID link(file.name) AS Gottheit, join(aliases," | ") AS Namen, join(link(domains),", ") AS Domains, condition AS Status
+> TABLE WITHOUT ID link(file.name) AS Gottheit, join(aliases," \| ") AS Namen, join(link(domains),", ") AS Domains, condition AS Status
 > FROM !"99 - Meta"
 > WHERE contains(tags, "#Gottheit") AND !contains(condition, "Tot")
 > SORT file.name ASC
@@ -39,7 +39,7 @@ title: Home
 
 > [!abstract]- NPCs
 > ``` dataview
-> TABLE WITHOUT ID link(file.name) AS Name, join(race," | ") AS Spezies, join(occupation," | ") AS Berufe, condition AS Status, join(link(languages),", ") AS Sprachen
+> TABLE WITHOUT ID link(file.name) AS Name, join(race," \| ") AS Spezies, join(occupation," \| ") AS Berufe, condition AS Status, join(link(languages),", ") AS Sprachen
 > FROM !"99 - Meta"
 > WHERE contains(tags, "#NPC") AND !contains(tags, "#Gottheit") AND !contains(condition, "Tot")
 > SORT file.name ASC
