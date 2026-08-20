@@ -354,7 +354,7 @@ function processFile(row, index) {
   let changed = false
 
   while (i < lines.length) {
-    const openMatch = lines[i].match(/^(\s*>?\s*)```dataview\s*$/)
+    const openMatch = lines[i].match(/^((?:>\s*)*)```\s*dataview\s*$/i)
     if (!openMatch) {
       output.push(lines[i])
       i++
@@ -365,7 +365,7 @@ function processFile(row, index) {
     const queryLines = []
     i++
     while (i < lines.length) {
-      const closeMatch = lines[i].match(/^(\s*>?\s*)```\s*$/)
+      const closeMatch = lines[i].match(/^((?:>\s*)*)```\s*$/)
       if (closeMatch) {
         i++
         break
@@ -404,7 +404,7 @@ function main() {
   console.log(`ℹ️  Gefundene .md-Dateien: ${files.length}`)
 
   const index = buildIndex(files)
-  const withDataview = index.filter((row) => row.raw.includes("```dataview"))
+  const withDataview = index.filter((row) => /```\s*dataview/i.test(row.raw))
   console.log(`ℹ️  Dateien mit \`\`\`dataview-Block: ${withDataview.length}`)
   if (withDataview.length > 0) {
     console.log(`ℹ️  Betroffene Dateien: ${withDataview.map((r) => r.relPath).join(", ")}`)
