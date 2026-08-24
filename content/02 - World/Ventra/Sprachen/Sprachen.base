@@ -9,3 +9,5 @@ views:
       - file.name
       - aliases
       - parent
+    columnSize:
+      note.aliases: 118
