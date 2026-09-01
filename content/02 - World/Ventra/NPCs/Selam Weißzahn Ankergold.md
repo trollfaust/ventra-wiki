@@ -3,6 +3,7 @@ tags:
   - "#NPC"
   - "#Character"
 aliases:
+  - Selam
 condition: Gesund
 occupation:
   - Händler

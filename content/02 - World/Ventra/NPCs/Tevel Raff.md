@@ -6,6 +6,7 @@ aliases:
 condition: Gesund
 occupation:
 location:
+  - "[[Griffan]]"
 art: 99 - Meta/Resources/Utility/Placeholder_Person.webp
 languages:
   - "[[Xyraxisch]]"
@@ -18,11 +19,13 @@ languages:
 > Kurzbeschreibung zum vorlesen hier rein
 
 ## Infos
-| Zustand | Standort | Sprachen | Beruf | Spezies | Organisation | Gruppe | Art |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-|`INPUT[Condition][:condition]`|`INPUT[inlineListSuggester(optionQuery(#Location AND !"99 - Meta"), useLinks(partial)):location]`|`INPUT[inlineListSuggester(optionQuery(#Organization OR #Language AND !"99 - Meta"), useLinks(partial)):languages]`|`INPUT[Occupation][inlineListSuggester:occupation]`|`INPUT[Race][suggester:race]`|`INPUT[inlineListSuggester(optionQuery(#Organisation AND !"99 - Meta"), useLinks(partial)):organizations]`|`INPUT[inlineListSuggester(optionQuery(#Gruppe AND !"99 - Meta"), useLinks(partial)):party]`|`INPUT[imageSuggester(class(input-image),optionQuery("")):art]`|
+| Zustand                        | Standort                                                                                          | Sprachen                                                                                                            | Beruf                                               | Spezies                       | Organisation                                                                                               | Gruppe                                                                                       | Art                                                             |
+| ------------------------------ | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ----------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| `INPUT[Condition][:condition]` | `INPUT[inlineListSuggester(optionQuery(#Location AND !"99 - Meta"), useLinks(partial)):location]` | `INPUT[inlineListSuggester(optionQuery(#Organization OR #Language AND !"99 - Meta"), useLinks(partial)):languages]` | `INPUT[Occupation][inlineListSuggester:occupation]` | `INPUT[Race][suggester:race]` | `INPUT[inlineListSuggester(optionQuery(#Organisation AND !"99 - Meta"), useLinks(partial)):organizations]` | `INPUT[inlineListSuggester(optionQuery(#Gruppe AND !"99 - Meta"), useLinks(partial)):party]` | `INPUT[imageSuggester(class(input-image),optionQuery("")):art]` |
 
 Kommt aus [[Griffan]].
+
+
 
 ## Sonstiges
 
