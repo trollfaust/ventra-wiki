@@ -19,7 +19,7 @@ art: 99 - Meta/Resources/Utility/Placeholder_Organisation.webp
 | Typ | Oberhaupt | Übergeordnet | Hauptort | Verehren | Art |
 | --- | --- | --- | --- | --- | --- |
 |`INPUT[OrganizationType][inlineListSuggester:type]`|`INPUT[inlineListSuggester(optionQuery(#Character AND !"99 - Meta"), useLinks(partial)):ruler]`|`INPUT[inlineListSuggester(optionQuery(#Organization AND !"99 - Meta"), useLinks(partial)):parent]`|`INPUT[inlineListSuggester(optionQuery(#Location AND !"99 - Meta"), useLinks(partial)):location]`|`INPUT[inlineListSuggester(optionQuery(#Character AND !"99 - Meta"), useLinks(partial)):worship]`|`INPUT[imageSuggester(class(input-image),optionQuery("")):art]`|
-
+Ein Transportunternehmen geführt von [[Selam Weißzahn Ankergold]] welches seinen Hauptsitz in [[Ojia]] hat.
 ## Sonstiges
 
 
