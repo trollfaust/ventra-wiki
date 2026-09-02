@@ -64,7 +64,7 @@ Die Stadt wird im Auftrag der Regierung des Reiches vom Stadthalter [[Jel-Dar Te
 > ```
 
 ## Demographics
-### Random NPC: `dice: [[Ojia#^Spezies]]` / `dice: [[Ojia#^Beruf]]`
+### Random NPC: `dice: [[Ojia#^Spezies]]` / `dice: [[Ojia#^a83a2a]]`
 ### Table Betriebe
 
 | Betriebe              | Anzahl | Gesamt Arbeiter | Ø Arbeiter Anzahl |
@@ -211,86 +211,88 @@ Die Stadt wird im Auftrag der Regierung des Reiches vom Stadthalter [[Jel-Dar Te
 | Yuan-ti      | 36     | 0,3%                    |
 ### Table Random Betrieb
 
-| dice: 1d12000 | Betrieb                 |
-|---------------|-------------------------|
-| 1-1480        | Arbeitslos |
-| 1481-3216     | Kinder                  |
-| 3217-3225     | Abenteuer Gilde         |
-| 3226-3231     | Alchemist               |
-| 3232-3294     | Altkleider Händler      |
-| 3295-3339     | Badehaus                |
-| 3340-3452     | Barber                  |
-| 3453-6692     | Bauernhöfe              |
-| 6693-6741     | Bierhändler             |
-| 6742-6795     | Bleicher                |
-| 6796-6811     | Buchbinder              |
-| 6812-6822     | Buchhändler             |
-| 6823-6825     | Buchmaler               |
-| 6826-6906     | Bäcker                  |
-| 6907-6910     | Büchsenmacher           |
-| 6911-6986     | Dachdecker              |
-| 6987-6993     | Doktor (lizensiert)     |
-| 6994-7025     | Doktor (unlizensiert)   |
-| 7026-8580     | Fischereien             |
-| 8581-8634     | Fischhändler            |
-| 8635-8651     | Friedhof                |
-| 8652-8711     | Gasthaus                |
-| 8712-8776     | Gerber                  |
-| 8777-8825     | Gewürzhändler           |
-| 8826-8877     | Grob-Schmied            |
-| 8878-8893     | Handschuhmacher         |
-| 8894-8920     | Heuhändler              |
-| 8921-8996     | Holzfäller              |
-| 8997-9039     | Holzhändler             |
-| 9040-9045     | Holzschnitzer           |
-| 9046-9087     | Hutmacher               |
-| 9088-9146     | Hühner Schlachterei     |
-| 9147-9243     | Juwelier                |
-| 9244-9249     | Kartograph              |
-| 9250-9301     | Kerzengießer            |
-| 9302-9431     | Konditor                |
-| 9432-9441     | Kurier                  |
-| 9442-9527     | Küfner                  |
-| 9528-9673     | Kürschner               |
-| 9674-9689     | Magieladen              |
-| 9690-9758     | Maler                   |
-| 9759-9774     | Messerschmied           |
-| 9775-9925     | Minen                   |
-| 9926-10007    | Mühle                   |
-| 10008-10023   | Rüstungs-Schmied        |
-| 10024-10059   | Sattler                 |
-| 10060-10101   | Scheidenmacher          |
-| 10102-10150   | Schlachterei            |
-| 10151-10169   | Schlosser               |
-| 10170-10195   | Schnallenmacher         |
-| 10196-10351   | Schneider               |
-| 10352-10358   | Schreiber               |
-| 10359-10595   | Schuhmacher             |
-| 10596-10676   | Seiler                  |
-| 10677-10708   | Seilmacher              |
-| 10709-10731   | Skulpturenbildner       |
-| 10732-10866   | Stadtwache              |
-| 10867-10909   | Stall                   |
-| 10910-10963   | Steinhauer              |
-| 10964-11060   | Stoffhändler            |
-| 11061-11109   | Stuckateur              |
-| 11110-11145   | Taschenmacher           |
-| 11146-11318   | Taverne                 |
-| 11319-11398   | Tempel                  |
-| 11399-11430   | Teppichmacher           |
-| 11431-11462   | Transport               |
-| 11463-11522   | Töpferei                |
-| 11523-11546   | Verwaltung              |
-| 11547-11568   | Waffen-Schmied          |
-| 11569-11724   | Weber                   |
-| 11725-11800   | Weinhändler             |
-| 11801-11819   | Zaumzeugmacher          |
-| 11820-12000   | Zimmerer                |
-^Beruf
+| dice: 1d12000 | Betrieb               |
+| ------------- | --------------------- |
+| 1-1480        | Arbeitslos            |
+| 1481-3216     | Kinder                |
+| 3217-3225     | Abenteuer Gilde       |
+| 3226-3231     | Alchemist             |
+| 3232-3294     | Altkleider Händler    |
+| 3295-3339     | Badehaus              |
+| 3340-3452     | Barber                |
+| 3453-6692     | Bauernhöfe            |
+| 6693-6741     | Bierhändler           |
+| 6742-6795     | Bleicher              |
+| 6796-6811     | Buchbinder            |
+| 6812-6822     | Buchhändler           |
+| 6823-6825     | Buchmaler             |
+| 6826-6906     | Bäcker                |
+| 6907-6910     | Büchsenmacher         |
+| 6911-6986     | Dachdecker            |
+| 6987-6993     | Doktor (lizensiert)   |
+| 6994-7025     | Doktor (unlizensiert) |
+| 7026-8580     | Fischereien           |
+| 8581-8634     | Fischhändler          |
+| 8635-8651     | Friedhof              |
+| 8652-8711     | Gasthaus              |
+| 8712-8776     | Gerber                |
+| 8777-8825     | Gewürzhändler         |
+| 8826-8877     | Grob-Schmied          |
+| 8878-8893     | Handschuhmacher       |
+| 8894-8920     | Heuhändler            |
+| 8921-8996     | Holzfäller            |
+| 8997-9039     | Holzhändler           |
+| 9040-9045     | Holzschnitzer         |
+| 9046-9087     | Hutmacher             |
+| 9088-9146     | Hühner Schlachterei   |
+| 9147-9243     | Juwelier              |
+| 9244-9249     | Kartograph            |
+| 9250-9301     | Kerzengießer          |
+| 9302-9431     | Konditor              |
+| 9432-9441     | Kurier                |
+| 9442-9527     | Küfner                |
+| 9528-9673     | Kürschner             |
+| 9674-9689     | Magieladen            |
+| 9690-9758     | Maler                 |
+| 9759-9774     | Messerschmied         |
+| 9775-9925     | Minen                 |
+| 9926-10007    | Mühle                 |
+| 10008-10023   | Rüstungs-Schmied      |
+| 10024-10059   | Sattler               |
+| 10060-10101   | Scheidenmacher        |
+| 10102-10150   | Schlachterei          |
+| 10151-10169   | Schlosser             |
+| 10170-10195   | Schnallenmacher       |
+| 10196-10351   | Schneider             |
+| 10352-10358   | Schreiber             |
+| 10359-10595   | Schuhmacher           |
+| 10596-10676   | Seiler                |
+| 10677-10708   | Seilmacher            |
+| 10709-10731   | Skulpturenbildner     |
+| 10732-10866   | Stadtwache            |
+| 10867-10909   | Stall                 |
+| 10910-10963   | Steinhauer            |
+| 10964-11060   | Stoffhändler          |
+| 11061-11109   | Stuckateur            |
+| 11110-11145   | Taschenmacher         |
+| 11146-11318   | Taverne               |
+| 11319-11398   | Tempel                |
+| 11399-11430   | Teppichmacher         |
+| 11431-11462   | Transport             |
+| 11463-11522   | Töpferei              |
+| 11523-11546   | Verwaltung            |
+| 11547-11568   | Waffen-Schmied        |
+| 11569-11724   | Weber                 |
+| 11725-11800   | Weinhändler           |
+| 11801-11819   | Zaumzeugmacher        |
+| 11820-12000   | Zimmerer              |
+
+^a83a2a
+
 ### Table Random Spezies
 
-| dice: 1d10000 | Spezies      |
-|---------------|--------------|
+| dice: 1d10024 | Spezies      |
+| ------------- | ------------ |
 | 1-420         | Aarakocra    |
 | 421-464       | Aasimar      |
 | 465-632       | Air Genasi   |
