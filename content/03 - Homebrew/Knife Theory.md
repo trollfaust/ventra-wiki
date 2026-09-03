@@ -15,7 +15,7 @@ When writing a character's backstory, it's important to include a certain number
 
 The more knives a player has, the easier it is for the DM to involve them in the story. So it's important to have them! When breaking down a backstory, it kind of goes like this:
 
-- Every named person your character cares about, living or dead (i.e. sibling, spouse, childhood friend) +1 knife [EDIT: a large family can be bundled into one big knife]
+- Every named person your character cares about, living or dead (i.e. sibling, spouse, childhood friend) +1 knife (a large family can be bundled into one big knife)
 - Every phobia or trauma your character experiences/has experienced +1 knife
 - Every mystery in your character's life (i.e. unknown parents, unexplained powers) +1 knife
 - Every enemy your character has +1 knife
@@ -28,5 +28,7 @@ The more knives a player has, the easier it is for the DM to involve them in the
 - Every favored item/heirloom +1 knife
 - Every secret your character is keeping +1 knife
 
+
+[Mystic Arts Video zu Knife Theory](https://youtu.be/jWtDBHYl06E)
 
 ## Sonstiges
