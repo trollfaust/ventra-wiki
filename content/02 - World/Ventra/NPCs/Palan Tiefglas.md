@@ -12,6 +12,8 @@ art: 99 - Meta/Resources/Utility/Placeholder_Person.webp
 languages:
   - "[[Xyraxisch]]"
   - "[[Helisch]]"
+party:
+  - "[[Sunlight Legacy]]"
 ---
 # `=this.file.name`
 
@@ -19,10 +21,10 @@ languages:
 > Kurzbeschreibung zum vorlesen hier rein
 
 ## Infos
-| Zustand | Standort | Sprachen | Beruf | Spezies | Organisation | Gruppe | Art |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-|`INPUT[Condition][:condition]`|`INPUT[inlineListSuggester(optionQuery(#Location AND !"99 - Meta"), useLinks(partial)):location]`|`INPUT[inlineListSuggester(optionQuery(#Organization OR #Language AND !"99 - Meta"), useLinks(partial)):languages]`|`INPUT[Occupation][inlineListSuggester:occupation]`|`INPUT[Race][suggester:race]`|`INPUT[inlineListSuggester(optionQuery(#Organisation AND !"99 - Meta"), useLinks(partial)):organizations]`|`INPUT[inlineListSuggester(optionQuery(#Gruppe AND !"99 - Meta"), useLinks(partial)):party]`|`INPUT[imageSuggester(class(input-image),optionQuery("")):art]`|
-
+| Zustand                        | Standort                                                                                          | Sprachen                                                                                                            | Beruf                                               | Spezies                       | Organisation                                                                                               | Gruppe                                                                                       | Art                                                             |
+| ------------------------------ | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ----------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| `INPUT[Condition][:condition]` | `INPUT[inlineListSuggester(optionQuery(#Location AND !"99 - Meta"), useLinks(partial)):location]` | `INPUT[inlineListSuggester(optionQuery(#Organization OR #Language AND !"99 - Meta"), useLinks(partial)):languages]` | `INPUT[Occupation][inlineListSuggester:occupation]` | `INPUT[Race][suggester:race]` | `INPUT[inlineListSuggester(optionQuery(#Organisation AND !"99 - Meta"), useLinks(partial)):organizations]` | `INPUT[inlineListSuggester(optionQuery(#Gruppe AND !"99 - Meta"), useLinks(partial)):party]` | `INPUT[imageSuggester(class(input-image),optionQuery("")):art]` |
+Steuermann auf einem der Schiffe von [[Sunlight Transport]]. 
 ## Sonstiges
 
 
