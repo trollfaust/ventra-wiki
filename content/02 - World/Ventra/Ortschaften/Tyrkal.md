@@ -18,6 +18,8 @@ export:
   - Früchte
 languages:
   - "[[Xyraxisch]]"
+  - "[[Khelisch]]"
+  - "[[Helisch]]"
 ---
 # `=this.file.name`
 

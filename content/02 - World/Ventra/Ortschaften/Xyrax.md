@@ -12,6 +12,8 @@ location:
 art: 99 - Meta/Resources/Utility/Placeholder_Town.webp
 languages:
   - "[[Xyraxisch]]"
+  - "[[Khelisch]]"
+  - "[[Helisch]]"
 export:
   - Technologie
   - Stahl

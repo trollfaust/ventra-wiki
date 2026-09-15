@@ -4,31 +4,31 @@ tags:
 aliases:
 type: Settlement
 subType:
-  - Kleinstadt
+  - Stadt
 dominion:
 location:
-  - "[[Xyraxisches Reich]]"
+  - "[[Khelland]]"
 art: 99 - Meta/Resources/Utility/Placeholder_Town.webp
+languages:
+  - "[[Khelisch]]"
+  - "[[Xyraxisch]]"
+  - "[[Helisch]]"
 export:
   - Getreide
-  - Wolle
-  - Gemüse
+  - Lehm
 import:
   - Holz
-  - Stein
-languages:
-  - "[[Xyraxisch]]"
 ---
 # `=this.file.name`
 
 > [!recite]+ Kurzbeschreibung
-> Eine Agrar-Kleinstadt an der Westküste das Hauptlandes Nord Ventras im Xyraxischen Reich.
+> Der erste Anlaufpunkt für Schiffe aus dem Xyraxischen Reich in Richtung Norden ist Urkar.
 
 ## Infos
 | Typ                                      | Sub-Type                                                                                                                                                                      | Übergeordnet                                                                                      | Bevölkerungszahl           | Herrschaft                                                                                                          | Regierungsform                                              | Import                                     | Export                                     | Sprachen                                                                                                            | Art                                                             |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------ | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | `INPUT[LocationType][inlineSelect:type]` | `INPUT[LandType][inlineListSuggester:subType]`(Land)<br>`INPUT[SettlementType][inlineListSuggester:subType]`(Ortschaft)<br>`INPUT[POIType][inlineListSuggester:subType]`(POI) | `INPUT[inlineListSuggester(optionQuery(#Location AND !"99 - Meta"), useLinks(partial)):location]` | `INPUT[number:population]` | `INPUT[inlineListSuggester(optionQuery(#Organization OR #Character AND !"99 - Meta"), useLinks(partial)):dominion]` | `INPUT[GovernmentType][inlineListSuggester:governmenttype]` | `INPUT[Goods][inlineListSuggester:import]` | `INPUT[Goods][inlineListSuggester:export]` | `INPUT[inlineListSuggester(optionQuery(#Organization OR #Language AND !"99 - Meta"), useLinks(partial)):languages]` | `INPUT[imageSuggester(class(input-image),optionQuery("")):art]` |
-Auch wenn Lefkyl an der Küste liegt, hat die kleine Stadt keinen Hafen. Vor der [[Die Splitterung|Splitterung]] in Land gelegen und der Strand zu flach für größere Schiffe wurde hier bis heute kein Hafen gebaut. Mit viel fruchtbarer Erde umgeben ist die Region von [[Lefkyl]] bis [[Xeros]] und [[Tyrkal]] ideales Anbaugebiet für Getreide und andere Nahrungsmittel. Alles an Waren in und aus der Stadt wird per Eisenbahn transportiert.
+Nach der [[Die Splitterung|Splitterung]] lag das Dorf Urkar nicht mehr weit von der Westküste entfernt und innerhalb weniger Jahrzehnte wuchs das Dorf zu einer Stadt bis zur Küste heran. Heute ist Urkar eine Handelsstadt und der erste Anlaufpunkt von Schiffen aus dem [[Xyraxisches Reich|Xyraxischen Reich]], welche Richtung Norden segeln. Das alte Dorf, etwas abseits gelegen, ist bis heute im Getreideanbau und Lehmabbau aktiv.
 
 ## Sonstiges
 

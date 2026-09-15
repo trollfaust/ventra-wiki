@@ -43,7 +43,7 @@ views:
     name: Khelland
     filters:
       and:
-        - location.contains("Khelland")
+        - location.contains(link("Khelland"))
     groupBy:
       property: subType
       direction: ASC

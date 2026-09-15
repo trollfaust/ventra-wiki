@@ -12,6 +12,7 @@ art: 99 - Meta/Resources/Utility/Placeholder_Town.webp
 languages:
   - "[[Xyraxisch]]"
   - "[[Helisch]]"
+  - "[[Khelisch]]"
 ---
 # `=this.file.name`
 

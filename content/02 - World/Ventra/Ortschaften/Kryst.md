@@ -17,13 +17,13 @@ languages:
 # `=this.file.name`
 
 > [!recite]+ Kurzbeschreibung
-> Kurzbeschreibung zum vorlesen hier rein
+> An der östlichen Küste Khellands liegt dessen Hauptstadt Kryst.
 
 ## Infos
 | Typ | Sub-Type | Übergeordnet | Bevölkerungszahl | Herrschaft | Regierungsform | Import | Export | Sprachen | Art |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `INPUT[LocationType][inlineSelect:type]` | `INPUT[LandType][inlineListSuggester:subType]`(Land)<br>`INPUT[SettlementType][inlineListSuggester:subType]`(Ortschaft)<br>`INPUT[POIType][inlineListSuggester:subType]`(POI) | `INPUT[inlineListSuggester(optionQuery(#Location AND !"99 - Meta"), useLinks(partial)):location]` | `INPUT[number:population]` | `INPUT[inlineListSuggester(optionQuery(#Organization OR #Character AND !"99 - Meta"), useLinks(partial)):dominion]` | `INPUT[GovernmentType][inlineListSuggester:governmenttype]` | `INPUT[Goods][inlineListSuggester:import]` | `INPUT[Goods][inlineListSuggester:export]` | `INPUT[inlineListSuggester(optionQuery(#Organization OR #Language AND !"99 - Meta"), useLinks(partial)):languages]` | `INPUT[imageSuggester(class(input-image),optionQuery("")):art]` |
-
+An der östlichen Küste [[Khelland|Khellands]] zur [[Kernsee]] um am Fluss [[Krylass]] liegt Kryst, die Hauptstadt der Nation. Seit der Expansion des Xyraxischen Schienennetzes nach [[Khelland]] und ins [[Königreich Heldam]] in den Jahren 163 bis 185 der [[Ära der Hoffnung]] ist Kryst auch an dieses angeschlossen.
 
 ## Sonstiges
 

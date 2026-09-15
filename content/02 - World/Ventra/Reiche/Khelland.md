@@ -2,6 +2,7 @@
 tags:
   - "#Location"
 aliases:
+  - "Khellands"
 type: Nation
 subType:
 dominion:
