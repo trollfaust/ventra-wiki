@@ -2,12 +2,17 @@
 tags:
   - "#Location"
 aliases:
-type: Landmass
+type: Settlement
 subType:
-  - Planet
+  - Großstadt
 dominion:
 location:
+  - "[[Khelland]]"
 art: 99 - Meta/Resources/Utility/Placeholder_Land.webp
+languages:
+  - "[[Khelisch]]"
+  - "[[Xyraxisch]]"
+  - "[[Helisch]]"
 ---
 # `=this.file.name`
 
