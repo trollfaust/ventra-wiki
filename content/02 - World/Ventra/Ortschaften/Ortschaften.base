@@ -1,11 +1,13 @@
+filters:
+  and:
+    - file.tags.contains("Location")
+    - '!file.folder.startsWith("99 - Meta")'
+    - type == "Settlement"
 views:
   - type: table
     name: Xyraxisches Reich
     filters:
       and:
-        - file.tags.contains("#Location")
-        - '!file.folder.startsWith("99 - Meta")'
-        - type == "Settlement"
         - location == ["[[Xyraxisches Reich]]"]
     groupBy:
       property: subType
@@ -26,9 +28,6 @@ views:
     name: Khelland
     filters:
       and:
-        - file.tags.contains("#Location")
-        - '!file.folder.startsWith("99 - Meta")'
-        - type == "Settlement"
         - location == ["Khelland"]
     groupBy:
       property: subType
