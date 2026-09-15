@@ -23,7 +23,7 @@ views:
     name: Xyraxisches Reich
     filters:
       and:
-        - location == ["[[Xyraxisches Reich]]"]
+        - location.contains(link("Xyraxisches Reich"))
     groupBy:
       property: subType
       direction: ASC
@@ -43,7 +43,7 @@ views:
     name: Khelland
     filters:
       and:
-        - location == ["Khelland"]
+        - location.contains("Khelland")
     groupBy:
       property: subType
       direction: ASC
