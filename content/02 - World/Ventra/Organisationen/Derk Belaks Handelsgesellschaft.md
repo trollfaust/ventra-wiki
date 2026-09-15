@@ -7,6 +7,7 @@ type:
 ruler:
   - "[[Derk Belak]]"
 location:
+  - "[[Tyrkal]]"
 art: 99 - Meta/Resources/Utility/Placeholder_Organisation.webp
 ---
 # `=this.file.name`
