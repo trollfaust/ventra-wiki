@@ -5,6 +5,21 @@ filters:
     - type == "Settlement"
 views:
   - type: table
+    name: Alle
+    groupBy:
+      property: location
+      direction: ASC
+    order:
+      - file.name
+      - subType
+      - dominion
+      - export
+      - import
+      - languages
+    columnSize:
+      file.name: 141
+      note.dominion: 223
+  - type: table
     name: Xyraxisches Reich
     filters:
       and:
