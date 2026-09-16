@@ -45,6 +45,14 @@ title: Home
 > SORT file.name ASC
 > ```
 
+> [!abstract]- Organisationen
+> ``` dataview
+> TABLE WITHOUT ID link(file.name) AS Name, join(link(ruler),", ") AS Oberhaupt, join(link(location),", ") AS Hauptsitz
+> FROM !"99 - Meta"
+> WHERE contains(tags, "#Organisation")
+> SORT file.name ASC
+> ```
+
 ## Sonstiges
 
 > [!abstract]- Sprachen

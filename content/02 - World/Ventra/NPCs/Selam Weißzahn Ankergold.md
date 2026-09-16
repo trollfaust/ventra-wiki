@@ -18,6 +18,7 @@ languages:
   - "[[Helisch]]"
 organizations:
   - "[[Sunlight Transport]]"
+race: Walrossfolk
 ---
 # `=this.file.name`
 
