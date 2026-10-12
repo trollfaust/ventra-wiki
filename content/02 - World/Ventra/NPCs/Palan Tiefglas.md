@@ -6,8 +6,7 @@ aliases:
 condition: Gesund
 occupation:
   - Steuermann
-location:
-  - "[[Ojia]]"
+location: []
 art: 99 - Meta/Resources/Utility/Placeholder_Person.webp
 languages:
   - "[[Xyraxisch]]"
